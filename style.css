@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+
+    background:
+        linear-gradient(135deg, white 25%, transparent 25%) -50px 0,
+        linear-gradient(225deg, white 25%, transparent 25%) -50px 0,
+        linear-gradient(315deg, white 25%, transparent 25%),
+        linear-gradient(45deg, white 25%, transparent 25%);
+    background-size: 2em 2em;
+    background-color: lightblue;
+}
+
+h1 {
+    background-color: lightblue;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px darkcyan;
+}
+
+#game-board {
+    margin: auto;
+    width: 550px;
+    display: inline-block;
+}
+
+#title-bar {
+    background-color: black;
+    height: 75px;
+}
+
+#title {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    background-color: black;
+    color: lightblue;
+    width: 100%;
+}
+
+.swatch {
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+    margin: 10px 5px;
+    border: 8px solid black;
+    box-shadow: 1px 3px 8px black;
+}
+
+.swatch-row {
+    display: inline-block;
+    margin: 0;
+}
+
+#compare {
+    display: none;
+}
+
+#bar {
+    background-color: black;
+    padding: 10px;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: lightblue;
+    border: 0;
+    border-radius: 5px;
+}
+
+#bar button:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.btn-active {
+    background-color: lightblue;
+    color: black;
+}
+
+#level {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+#colorCase {
+    height: 75px;
+    background-color: black;
+    display: inline-block;
+}
+
+#colorBox {
+    display: flex;
+    height: 100%;
+    align-self: center;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.colorBar {
+    width: 50px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
