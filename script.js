@@ -50,7 +50,7 @@ var setSwatches = ()=> {
     });
 
     winningColor = currentColorSet[Math.floor(Math.random() * currentColorSet.length)];
-    winValue = `rgb(${winningColor[0]},${winningColor[1]},${winningColor[2]})`;
+    winValue = `rgb(<span class="rc">${winningColor[0]}</span>,<span class="bc">${winningColor[1]}</span>,<span class="gc">${winningColor[2]}</span>)`;
 
     Q('#title').innerHTML = winValue;
     Q('#compare').style.backgroundColor = winValue;

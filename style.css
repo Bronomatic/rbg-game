@@ -124,3 +124,13 @@ h1 {
 #blue {
     background-color: blue;
 }
+
+.rc {
+    color: red;
+}
+.bc {
+    color: blue;
+}
+.gc {
+    color: green;
+}
